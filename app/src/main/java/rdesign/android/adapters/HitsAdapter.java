@@ -127,7 +127,7 @@ public class HitsAdapter extends RecyclerView.Adapter<HitsAdapter.ViewHolder> {
 
         });
 
-        
+
 
     }
 
