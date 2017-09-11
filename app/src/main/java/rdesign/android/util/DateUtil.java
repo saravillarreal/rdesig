@@ -57,7 +57,6 @@ public class DateUtil {
     * */
     public static Long getDateAtMilliSec(String dateAt) throws ParseException {
 
-        String string = "2013-03-05T18:05:05.000Z";
         String defaultTimezone = TimeZone.getDefault().getID();
         Date date = (new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ")).parse(dateAt.replaceAll("Z$", "+0000"));
         long milliseconds = date.getTime();
